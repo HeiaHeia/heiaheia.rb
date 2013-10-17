@@ -1,20 +1,18 @@
 # HeiaHeia
 
-TODO: Write a gem description
+Ruby toolkit for the HeiaHeia API
 
-## Installation
+![Logo](https://asset0.heiaheia.com/images/hh-logo.png)
 
-Add this line to your application's Gemfile:
+## Quick start
 
-    gem 'heiaheia'
+Install via Rubygems
 
-And then execute:
+    gem install heiaheia
 
-    $ bundle
+... or add to your Gemfile
 
-Or install it yourself as:
-
-    $ gem install heiaheia
+    gem "heiaheia", "~> 0.0.1"
 
 ## Usage
 
