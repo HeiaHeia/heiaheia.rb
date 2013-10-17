@@ -1,4 +1,4 @@
-# Heiaheia
+# HeiaHeia
 
 TODO: Write a gem description
 

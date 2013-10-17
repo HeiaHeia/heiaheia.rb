@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'heiaheia/version'
+require 'heia_heia/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "heiaheia"
-  spec.version       = Heiaheia::VERSION
+  spec.version       = HeiaHeia::VERSION
   spec.authors       = ["Shalva Usubov"]
   spec.email         = ["shaliko@ezid.ru"]
   spec.description   = "Ruby toolkit for the HeiaHeia API"
