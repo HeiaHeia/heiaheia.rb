@@ -3,6 +3,8 @@
 .bundle
 .config
 .yardoc
+.autotest
+.rspec
 Gemfile.lock
 InstalledFiles
 _yardoc

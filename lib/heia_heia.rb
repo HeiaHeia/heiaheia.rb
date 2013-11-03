@@ -1,3 +1,4 @@
+require "yaml"
 require "heia_heia/version"
 require 'heia_heia/client'
 require 'heia_heia/default'
@@ -11,7 +12,7 @@ module HeiaHeia
     #
     # @return [HeiaHeia::Client] API wrapper
     def client
-      @client = HeiaHeia::Client.new(options) unless defined?(@client)
+      @client = HeiaHeia::Client.new(options) unless defined?(@client) && @client.same_options?(options)
       @client
     end
 
